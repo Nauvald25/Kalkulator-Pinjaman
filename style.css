@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#kalkulator {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    color: azure;
+}
+
+#bulan, #pinjaman, #suku_bunga{
+    width: 100%;
+    height: 40px;
+    font-size: 20px
+}
+
+#suku_bunga {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size: 40px;
+}
