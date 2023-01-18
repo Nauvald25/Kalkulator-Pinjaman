@@ -5,5 +5,5 @@ function computeLoan() {
     const suku = (pinjaman * (suku_bunga * 0.01)) /bulan;
     const pembayaran = (pinjaman / bulan + suku).toFixed(0);
 
-    document.querySelector("#pembayaran").innerHTML = `Monthly pembayaran = ${pembayaran}`;
+    document.querySelector("#pembayaran").innerHTML = `pembayaran bulanan = ${pembayaran}`;
 }
